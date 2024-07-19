@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "template-padrao"
+version = "0.1.0"
+description = "Projeto criado para rápida inicialização de um repositório com poetry."
+authors = ["IsraelAzevedoFabiano <israelazevedofabiano@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+taskipy = "^1.13.0"
+pytest = "^8.2.2"
+pytest-cov = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
